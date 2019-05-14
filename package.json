@@ -1,0 +1,29 @@
+{
+  "name": "hapi-route",
+  "version": "0.0.2",
+  "description": "Hapi plugin for registering routes",
+  "main": "lib/index.js",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nrnaveen/hapi-route.git"
+  },
+  "keywords": [
+    "hapi",
+    "route",
+    "routes",
+    "plugin"
+  ],
+  "author": "Naveen Kumar <nrnaveen0492@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nrnaveen/hapi-route/issues"
+  },
+  "homepage": "https://github.com/nrnaveen/hapi-route",
+  "peerDependencies": {
+    "hapi": ">=17.x.x"
+  },
+  "engines": {
+    "node": ">=8.9.x"
+  }
+}
