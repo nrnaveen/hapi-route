@@ -7,6 +7,9 @@ Hapi Route allows you to put all your routing logic in simple way.
 ## How
 ### server.js
 ```javascript
+
+npm i hapi-route
+
 const server = new Hapi.server();
 
 const Router = require('hapi-route');
@@ -20,4 +23,5 @@ router.get('/', (request, h) => {
 router.post('/', (request, h) => {
 	return "Hello World!";
 }, options);
+
 ```
